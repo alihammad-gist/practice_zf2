@@ -9,6 +9,12 @@
     "homepage": "http://framework.zend.com/",
     "require": {
         "php": ">=5.5",
-        "zendframework/zendframework": "~2.5"
+        "zendframework/zendframework": "~2.5",
+        "zendframework/zftool": "dev-master"
+    },
+    "config": {
+    	"github-oauth": {
+		"github.com": "0cb3159d3a7100867dd4768a0a2364683a8d238c"
+	}
     }
 }
